@@ -7,11 +7,11 @@ using MudBlazor;
 
 namespace Dima.Web.Pages.Transactions;
 
-public partial class ListTransactionsPage : ComponentBase
+public class ListTransactionsPage : ComponentBase
 {
     #region Properties
 
-    public bool IsBusy { get; set; } = false;
+    public bool IsBusy { get; set; }
     public List<Transaction> Transactions { get; set; } = [];
     public string SearchTerm { get; set; } = string.Empty;
     public int CurrentYear { get; set; } = DateTime.Now.Year;
