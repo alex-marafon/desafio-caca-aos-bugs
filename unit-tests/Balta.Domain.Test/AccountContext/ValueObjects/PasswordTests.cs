@@ -1,9 +1,21 @@
+using Balta.Domain.SharedContext.Abstractions;
+using Moq;
+
 namespace Balta.Domain.Test.AccountContext.ValueObjects;
 
 public class PasswordTests
 {
+    private Mock<IDateTimeProvider> _mockDateTimeProvider;
+    public PasswordTests()
+    {
+    
+    }
+
     [Fact]
-    public void ShouldFailIfPasswordIsNull() => Assert.Fail();
+    public void ShouldFailIfPasswordIsNull()
+    {
+   
+    }
     
     [Fact]
     public void ShouldFailIfPasswordIsEmpty() => Assert.Fail();
