@@ -7,7 +7,6 @@ namespace Balta.Domain.Test.AccountContext.ValueObjects;
 public class VerificationCodeTest
 {
     private Mock<IDateTimeProvider> _mockDateTimeProvider;
-
     public VerificationCodeTest()
     {
         _mockDateTimeProvider = new Mock<IDateTimeProvider>();
