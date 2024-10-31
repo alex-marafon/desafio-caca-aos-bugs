@@ -8,13 +8,10 @@ Depuração e solução de bugs, pensamento crítico e analítico, segurança e 
 
 ## Participantes
 ### 🚀 Líder Técnico
-[NOME e GITHUB]
+ [Alex Marafon e https://github.com/alex-marafon]
 
 ### 👻 Caçadores de Bugs
-* [NOME e GITHUB]
-* [NOME e GITHUB]
-* [NOME e GITHUB]
-* [NOME e GITHUB]
+* [Alex Marafon e https://github.com/alex-marafon]
 
 ## ⚙️ Tecnologias
 * C# 12
@@ -30,8 +27,14 @@ Depuração e solução de bugs, pensamento crítico e analítico, segurança e 
 * Networking
 * Muito conhecimento técnico
 
-## 🧪 Como testar o projeto
-[DESCREVER COMO EXECUTAR O PROJETO]
+## 🧪 Como executar o projeto Dima
+[Clone o projeto para sua maquina.
+Se não tiver o sqlServer na maquina instale ou rode um docker pegue a conection string.
+Abra o projeto no seu editor favorito.
+Altere a conection string no AppSettings.json
+Abra o terminal na mesma pasta do projeto e exete um "dotnet ef update database" para criar o banco e as tabelas.
+Em seguida na pasta Data rode o arquivo "seed" que tem o dados para popular o banco.
+Pronto.]
 
 # 💜 Participe
 Quer participar dos próximos desafios? Junte-se a [maior comunidade .NET do Brasil 🇧🇷 💜](https://balta.io/discord)
